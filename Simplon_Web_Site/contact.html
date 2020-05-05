@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact V2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="contact simplon V2.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .contactContainer{
+            margin-top: 120px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark static-top menuSimplon">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+                <img src="images/logo-simplon.png" alt="simplon">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto menuSimplonItems">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Accueil
+                      <span class="sr-only">(current)</span>
+                    </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="team.html">Equipe</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">A Propos</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container">
+        <div class="row formTest contactContainer">
+
+
+               <div class="col-md-6 map">
+                    <h4> Pour toute question, suggestion, projet, envie, envoyez-nous un message via le formulaire suivant : </h4>
+
+                    <form action="/action_page.php">
+                    <label for="fname">Nom</label><br>
+                    <input type="text" id="fname" name="firstname" placeholder="Votre nom.."><br>
+                
+                    <label for="lname">Prénom</label><br>
+                    <input type="text" id="lname" name="lastname" placeholder="Votre prénom.."><br>
+                    <label class="lab"for="birth">Date</label><br>
+                    <input type="date"  name="Date"><br><br>
+                    <label class="lab"for="adress">Adresse E-mail</label><br>
+                    <input type="text" id="adress" name="adress"><br>
+                    <label for="country">Région</label><br>
+                    <input type="text" id="région" name="région" placeholder="votre région.."><br>
+                    <label class="lab"for="identité">Vous êtes</label><br>
+                    <input type="radio" name="particulier" value="Un particulier">
+                    <label class="lab"for="particulier">Un particulier</label><br>
+                    <input type="radio" name="organisation" value="Une organisation">
+                    <label class="lab"for="organisation">Une organisation</label><br>
+
+                </div>
+
+              <div class="col-md-6 map">
+                    <label for="comment">Message</label><br>
+                    <textarea name="Comment" rows="10" cols="30"></textarea><br>   
+                    <button class="btn" type="button" onclick="alert('Votre message a été envoyé avec succès')">Envoyer</button>
+              </div>
+            </form>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="map-responsive">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3194.9147808175708!2d10.179277515289845!3d36.79659357994935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd354c9935675d%3A0x3efd6dcde3a5505f!2sSimplon%20Tunis!5e0!3m2!1sfr!2stn!4v1583949032151!5m2!1sfr!2stn" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
+    </div>
+    </div>
+    <div class="social-media">
+        <h2>Suivez-nous sur:</h2>
+        <a href="https://www.facebook.com/SimplonTunis/?epa=SEARCH_BOX" class="fa fa-facebook"></a>
+        <a href="https://fr.linkedin.com/company/simplon-co" class="fa fa-linkedin"></a>
+        <a href="https://www.youtube.com/channel/UCTFYd2sOfjrJH1C421UyYuQ" class="fa fa-youtube"></a>
+        <a href="https://www.instagram.com/simplontunis/?fbclid=IwAR1VqjMcJLiP__udJhwXJPnCX_MSbT4jwbtcoSc54MtqLvrCi4NSH0GNUjA" class="fa fa-instagram"></a>
+        <a href="https://twitter.com/simplonco?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
+        
+     </div>
+
+</div>
+
+<!-- footer  -->
+<div class="container-fluid bigFooter">
+    <footer class="container">
+      <div class="row footerNewsletter">
+
+        <div class="col-md-4">
+          <div class="content">
+            <h5>SUBSCRIBE TO OUR NEWSLETTER</h5>
+          <div class="input-group">
+                 <input type="email" class="form-control" placeholder="your@email.com">
+                 <span class="input-group-btn">
+                 <button class="btn footerNewsletterBtn" type="submit">Subscribe Now</button>
+                 </span>
+          </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="content">
+            <h5>Contact</h5>
+          <div class="">
+            <p><img src="images/phone.png" alt="" width="25px" height="25px"> +216 20000000</p>
+            <p><img src="images/mail.png" alt="" width="25px" height="25px"> contact@simplon.co</p> 
+            <p><img src="images/add.png" alt="" width="25px" height="25px"> 15 Avenue De Carthage, Tunis</p>      
+          </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="content">
+            <h5>Simplon Tunis</h5>
+            
+          <div class="">
+                 
+          </div>
+          </div>
+        </div>
+        </div>
+       
+    </footer>
+  </div>
+  <div class="container-fluid smallFooter">
+    <footer class="">
+      <p>&copy; 2020 Simplon Tunis Powred by MAG<p></p>
+    </footer>
+  </div>
+
+
+</body>
+</html>
